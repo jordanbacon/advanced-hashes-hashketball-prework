@@ -140,9 +140,9 @@ end
 
 def team_colors(team_name)
   game_hash.each do |team, attributes|
-    attributes[:players].each do |name, values|
-      if name == player_name
-        return values[:shoe]
+    attributes[:team_name].each do |name, values|
+      if name == team_name
+        return [:colors]]
       end
     end
   end
