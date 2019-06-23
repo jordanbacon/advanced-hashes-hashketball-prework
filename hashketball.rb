@@ -174,3 +174,5 @@ attributes[:players].each do |name, stats|
 end
 end
 end
+
+def big_shoe_rebounds()
