@@ -146,6 +146,8 @@ def team_colors(team_name)
     end
   end
   
+def team_names()
+  
 def player_numbers(team_name)
   jersey_array = []
   game_hash.each do |team, attributes|
