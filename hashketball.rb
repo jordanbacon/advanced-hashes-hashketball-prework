@@ -147,6 +147,7 @@ def team_colors(team_name)
   end
   
 def team_names()
+  game_hash[:home][:team_name][0]
   
 def player_numbers(team_name)
   jersey_array = []
