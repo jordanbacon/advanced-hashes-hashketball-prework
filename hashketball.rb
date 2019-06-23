@@ -145,3 +145,13 @@ def team_colors(team_name)
       end
     end
   end
+  
+def player_numbers(team_name)
+  jersey_array = []
+  game_hash.each do |team, attributes|
+    if attributes[:team_name] == team_name
+      jersey_array << attributes[:number]
+      end
+    end
+    jersey_array
+  end
